@@ -1,0 +1,62 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "mean_stack"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "tsconfig": "tsconfig.app.json",
+      "prefix": "app",
+      "styles": [
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/font-awesome/css/font-awesome.css",
+        "../node_modules/sweetalert2/dist/sweetalert2.min.css",
+        "styles.css"
+      ],
+      "scripts": [
+      	"../node_modules/sweetalert2/dist/sweetalert2.min.js",
+        "../node_modules/underscore/underscore.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "defaults": {
+    "styleExt": "css",
+    "component": {
+      "spec": false,
+      "inlineStyle": true,
+      "inlineTemplate": true
+    },
+    "directive": {
+      "spec": false
+    },
+    "class": {
+      "spec": false
+    },
+    "guard": {
+      "spec": false
+    },
+    "module": {
+      "spec": false
+    },
+    "pipe": {
+      "spec": false
+    },
+    "service": {
+      "spec": false
+    } 
+  }
+}
