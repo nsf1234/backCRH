@@ -43,4 +43,4 @@
 -"src" tiene la lógica del front-end, ahí se encuentran las vistas(html's), sus estilos(css's), 
  su lógica(ts), entre otros.
  
---Aquí está Angular 4
+--Aquí está Angul
